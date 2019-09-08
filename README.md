@@ -1,2 +1,4 @@
 # lotogleam_fine_management
-about fine management for speaking local language
+## Team
+  1. Pankaj Gupta (Team Lead)
+Application to manage fine/penalties within an organization
