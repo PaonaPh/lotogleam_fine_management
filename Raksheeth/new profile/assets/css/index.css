@@ -27,24 +27,11 @@ body{
     display: flex;
     }
 .n1,.n2,.n3{
-    cursor: pointer;
     padding: 0px 5px;
 }
-.uname:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-.n1:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-.n2:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
-}
-.n3:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
+.navigation_bar a:hover{
+    color:yellow;
+    cursor: pointer;
 }
 .dp img{
     position: relative;
