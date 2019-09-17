@@ -1,0 +1,70 @@
+*{
+    text-align:center;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(59, 58, 58)
+}
+.container{
+    display:flex;
+    position: relative;
+    margin-top: 50px;
+}
+.container1{
+    color:#fff;
+    background-color: rgba(92, 93, 93, 0.472);
+    margin-right: 50px;
+    width:70%;
+    height:500px;
+    padding:20px;
+    box-shadow: 0px 19px 70px 20px black;
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.StudentNumber{
+    /*border:0.3px solid rgb(156, 154, 154);*/
+    background-color: rgb(87, 88, 88);
+    width:200px;
+    box-shadow: 0px 10px 50px 7px black;
+    padding:5px;
+}
+.StudentNumber:hover{
+    color:#fff;
+    background-color: rgba(226, 6, 90, 0.918)
+}
+.unknown{
+    background-color: rgb(87, 88, 88);
+    width:200px;
+    box-shadow: 0px 10px 50px 7px black;
+    padding:5px;
+}
+.unknown:hover{
+    color:#fff;
+    background-color: rgba(226, 6, 90, 0.918)
+}
+.RichiRich{
+    background-color: rgb(87, 88, 88);
+    width:200px;
+    box-shadow: 0px 10px 50px 7px black;
+    padding:5px;
+}
+.RichiRich i{
+    color:orange;
+}
+.RichiRich:hover{
+    color:#fff;
+    background-color: rgba(226, 6, 90, 0.918)
+}
+.innocent{
+    background-color: rgb(87, 88, 88);
+    width:200px;
+    box-shadow: 0px 10px 50px 7px black;
+    padding:5px;
+}
+.innocent:hover{
+    color:#fff;
+    background-color: rgba(226, 6, 90, 0.918)
+}
