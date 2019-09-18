@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+header{
+    text-align: center;   
+}
+.srch{
+    display: flex;
+    justify-content: center;
+}
+.sname{
+    padding-right: 10px;
+}
