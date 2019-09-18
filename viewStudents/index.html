@@ -5,22 +5,54 @@
     <script src="https://kit.fontawesome.com/1c8d865763.js"></script>
   </head>
   <body>
+    <div class="bg-img"></div>
+    <div class="contents">
     <header>
       <h2>Students list</h2>
+    </header>  
         <form>
           <div class="srch">
             <div class="sname">
             <label for="ssrch">Name:</label>
-            <input  type="text" name="search" placeholder="Enter student's name" id="ssrch"/>
-            <button type="submit"><span class="fas fa-search"></span></button>
+            <div class="searchbox">
+            <input  type="text" name="search" placeholder="Search by student's name" id="ssrch"/>
+            <a class="searchbtn"><span class="fas fa-search"></span></a>
+            </div>
             </div>
             <div class="sreg">
-            <label for="rsrch">Registration number:</label>
-            <input  type="text" name="regno" placeholder="Enter student's regno" id="rsrch"/>
-            <button type="submit"><span class="fas fa-search"></span></button>
+            <label for="rsrch">Student ID:</label>
+            <div class="searchbox">
+            <input  type="text" name="regno" placeholder="Search by student's ID" id="rsrch"/>
+            <a class="searchbtn"><span class="fas fa-search"></span></a>
+            </div>
             </div>  
           </div>
         </form>
-    </header>
+      </br>
+        <div class="slist">
+          <table>
+            <tr>
+              <th>Student name</th>
+              <th>Student ID</th>
+              <th>Phone no</th>
+              <th>Fine amount</th>
+              <th>Options</th>
+            </tr>
+            <tr>
+              <td>"Name"</td>
+              <td>"ID"</td>
+              <td>"Phone no"</td>
+              <td>"Fine"</td>
+              <td>
+                <div class="options">
+                  <button><span class="fas fa-plus"></span> Add fine</button>
+                  <button><span class="fas fa-rupee-sign"></span> Pay up</button>
+                  <button><span class="fas fa-user-edit"></span> Edit</button>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        </div>
   </body>
 </html>
