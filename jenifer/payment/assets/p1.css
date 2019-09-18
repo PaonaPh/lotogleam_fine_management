@@ -1,0 +1,54 @@
+
+a
+{
+    color: skyblue;
+    font-family:Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+.pay
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    
+    height:30%;
+    margin-top:10%;
+    margin-left:34%; 
+    width: 20%;
+}
+input ,select
+{
+    width: 240px;
+    text-align: match-parent;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: green;
+}
+
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
