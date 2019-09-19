@@ -1,0 +1,105 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/CaviarDreams.ttf);
+  }
+  *{
+      box-sizing: border-box;
+      font-family: myFont;
+  }
+body{
+    background-color: #edeeef;
+    text-align: center;
+    font-family: myFont;
+}
+.head{
+    background-color: #495057;
+    margin-top:1%;
+    padding-top: 10px;
+    color: rgb(250, 245, 245);
+}
+.student-icon{
+}
+.searchbars{
+    justify-content: center;
+}
+input[type=text]{
+    border: none;
+    background: none;
+    outline: none;
+    width: 55%;
+}
+.searchbox{
+    display: inline;
+    background-color: rgba(47, 46, 46, 0.109);
+    padding: 12px 10px;
+    border-radius: 40px;
+}
+.searchbox:hover{
+    box-shadow: inset 10px 0px  rgba(22, 22, 22, 0.5);
+    border:1px solid rgba(81, 107, 177, 0.87);
+    transition-duration: 0.5s;
+    
+}
+.searchbox ::placeholder{
+    color: rgb(56, 61, 61);
+}
+.searchbtn{
+    background-color: rgba(189, 186, 186, 0.705);
+    color:rgba(0, 0, 0, 0.849) ;
+    border-radius: 50%;
+    padding: 10px 11px;
+    justify-content: center;
+    align-items:center; 
+}
+.searchbtn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0.863);
+    transition-duration: 0.5s;
+}
+table th{
+    font-family: myFont;
+    font-size: 25px;
+    background-color: rgb(44, 168, 168);
+    color: white;
+    padding: 4px 100px 4px 8px;
+}
+table td{
+    border: 1px solid rgb(44, 168, 168);
+    padding: 4px 15px;
+    color: black;
+    font-size: 20px;
+}
+
+a{
+    cursor: pointer;
+}
+.options a{
+    display: inline-block;
+    background-color:rgba(132, 130, 127, 0.33);
+    border-radius: 40px;
+    padding: 2px 5px;
+}
+.options a:hover{
+    background-color:rgba(132, 130, 127, 0.719);
+    transition-duration: 0.5s;
+}
+.a{
+    color: rgb(216, 52, 52);
+}
+.b{
+    color: rgb(16, 112, 16);
+}
+.c{
+    color: rgb(61, 61, 216);
+}
+
+@media screen and (max-width:989px)
+{
+    .searchbox{
+        display: block;
+        padding: 5px 10px 10px 10px;
+    }
+    .searchbtn{
+        float: right;
+    }
+}
