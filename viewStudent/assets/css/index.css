@@ -17,10 +17,8 @@ body{
     padding-top: 10px;
     color: rgb(250, 245, 245);
 }
-.student-icon{
-}
-.searchbars{
-    justify-content: center;
+.srchpos{
+    margin-left: 25%;
 }
 input[type=text]{
     border: none;
@@ -31,12 +29,12 @@ input[type=text]{
 .searchbox{
     display: inline;
     background-color: rgba(47, 46, 46, 0.109);
-    padding: 12px 10px;
+    padding: 12px 10px 13px 10px;
     border-radius: 40px;
 }
 .searchbox:hover{
     box-shadow: inset 10px 0px  rgba(22, 22, 22, 0.5);
-    border:1px solid rgba(81, 107, 177, 0.87);
+    border:1px solid rgba(22, 22, 22, 0.5);
     transition-duration: 0.5s;
     
 }
@@ -74,7 +72,6 @@ a{
     cursor: pointer;
 }
 .options a{
-    display: inline-block;
     background-color:rgba(132, 130, 127, 0.33);
     border-radius: 40px;
     padding: 2px 5px;
@@ -92,14 +89,22 @@ a{
 .c{
     color: rgb(61, 61, 216);
 }
-
+.pgnation li{
+    padding: 1px 6px;
+}
 @media screen and (max-width:989px)
 {
     .searchbox{
         display: block;
-        padding: 5px 10px 10px 10px;
+        padding: 3px 10px 13px 10px;
     }
     .searchbtn{
         float: right;
+    }
+    .srchpos{
+        margin:0;
+    }
+    .options a{
+        display:inline-block;
     }
 }
