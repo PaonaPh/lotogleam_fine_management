@@ -8,10 +8,8 @@
   }
 .body{
     background-color: #edeeef;
-    text-align: center;
-    font-family: myFont;
 }
-.head{
+header{
     background-color: #495057;
     margin-top:1%;
     padding-top: 10px;
@@ -24,6 +22,7 @@ input[type=text]{
     border: none;
     background: none;
     outline: none;
+    color: #edeeef;
     width: 55%;
 }
 .searchbox{
@@ -33,8 +32,8 @@ input[type=text]{
     border-radius: 40px;
 }
 .searchbox:hover{
-    box-shadow: inset 10px 0px  rgba(22, 22, 22, 0.5);
-    border:1px solid rgba(22, 22, 22, 0.5);
+    box-shadow: inset 10px 0px  rgba(22, 22, 22, 0.109);
+    border:1px solid rgba(22, 22, 22, 0.164);
     transition-duration: 0.5s;   
 }
 .searchbox ::placeholder{
@@ -50,7 +49,7 @@ input[type=text]{
 }
 .searchbtn:hover{
     color: rgb(255, 255, 255);
-    background-color: rgba(5, 5, 5, 0.863);
+    background-color: rgba(46, 44, 44, 0.657);
     transition-duration: 0.5s;
 }
 table th{
