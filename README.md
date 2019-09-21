@@ -4,5 +4,7 @@
   2. M R Raksheeth(developer)
   3. Paona Sharma (developer/css)
   4. tharun(developer/html)
+  9.priya(developer)
+
 Application to manage fine/penalties within an organization
   
