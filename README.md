@@ -11,9 +11,13 @@
   8. lavanya.m(developer/html) 
 =======
   7. Gayathri.R(developer/css)
-  8. lavanya.m (developer/html)
+<<<<<<< HEAD
 >>>>>>> 61648efdc63e6dc2fc8aafd2a4759323c52a011f
 
+=======
+  8. priya(developer)
+  9. lavanya.m (developer/html)
+>>>>>>> 785357532815701c5f18a229232e8732192b5fcc
 Application to manage fine/penalties within an organization
   
   
