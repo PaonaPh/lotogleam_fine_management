@@ -1,121 +1,40 @@
 *{
-    text-align:center;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(241, 241, 241)
-}
-.main{
-    margin:0px;
-}
-.nav{
-    color:#fff;
-    background-color: rgb(10, 24, 105);
-    width:100%;
-    height:80px;
-    padding:5px;
-}
-.container{
+.buttons{
     display:flex;
-    position: relative;
-    margin-top: 50px;
-    margin-left: 20px;
+    flex-direction: column;
+
+    justify-content: space-around;
 }
-.container1{
-    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
-    background-color: rgba(48, 49, 49, 0.472);
-    /*margin-right: 50px;*/
-    width:70%;
-    height:500px;
-    padding:20px;
-    box-shadow: 0px 20px 970px 15px black;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+.explanation{
+        overflow:auto;
+        background: linear-gradient(330deg, #e052527e 0%, #99e0527e 25%, #52e0e07e 50%, #9952e07e 75%, #e052527e 100%);
+        height:500px;
+        padding:20px;
+        box-shadow: 0px 20px 970px 15px rgba(0, 0, 0, 0.493);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
 }
-.container2{
-    display:block;
-    /*justify-content: space-around;*/
-    margin:auto;
+.btn{
+    background-color: rgb(44, 168, 168);
 }
-.StudentNumber{
-    /*border:0.3px solid rgb(156, 154, 154);*/
-    background-color: rgb(87, 88, 88);
-    width:200px;
-    box-shadow: 0px 10px 50px 7px black;
-    padding:5px;
-    margin-bottom: 15px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+.wrapperr{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
 }
-.StudentNumber:hover{
-    color:#fff;
-    background-color: rgba(6, 21, 226, 0.918)
-}
-.unknown{
-    background-color: rgb(87, 88, 88);
-    width:200px;
-    box-shadow: 0px 10px 50px 7px black;
-    padding:5px;
-    margin-bottom: 15px;
-}
-.unknown:hover{
-    color:#fff;
-    background-color: rgba(226, 6, 90, 0.918)
-}
-.RichiRich{
-    background-color: rgb(87, 88, 88);
-    width:200px;
-    box-shadow: 0px 10px 50px 7px black;
-    padding:5px;
-    margin-bottom: 15px;
-}
-/*.RichiRich i{
-    color:orange;
-}*/
-.RichiRich:hover{
-    color:#fff;
-    background-color: rgba(226, 68, 6, 0.918)
-}
-.innocent{
-    background-color: rgb(87, 88, 88);
-    width:200px;
-    box-shadow: 0px 10px 50px 7px black;
-    padding:5px;
-    margin-bottom: 15px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-}
-.innocent:hover{
-    color:#fff;
-    background-color: rgba(8, 165, 3, 0.918)
+i{
+    padding:0px 10px;
 }
 
-@media screen and (max-width:900px){
-    *{
-        margin:auto;
-        color:#fff;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .container{
-        display:block;
-    }
-    .container1{
-        width:90%;
-        margin-bottom: 10px;
-    }
-    .StudentNumber{
-        width:90%;
-        margin-bottom: 10px;
-    }
-    .unknown{
-        width:90%;
-        margin-bottom: 10px;
-    }
-    .RichiRich{
-        width:90%;
-        margin-bottom: 10px;
-    }
-    .innocent{
-        width:90%;
-    }
+
+@media screen and (max-width:1000px){
+.wrapperr{
+    display:block;
+}
+.explanation{
+    margin-bottom: 20px;
+}
+
 }
