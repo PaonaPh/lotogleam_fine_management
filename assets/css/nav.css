@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+.collapse navbar-collapse
+{
+  text-decoration: none;
+ letter-spacing: 3px;
+ font-weight: bold;
+ font-size:14px;
+ text-transform: uppercase;
+}
+.navbar-brand
+{
+    text-transform: uppercase;
+}
+.nav navbar-nav
+{
+    text-align: center;
+}
+collapse navbar-collapse
+{
+justify-content: space-around;
+align-items: center;
+min-height: 8vh;
+}
