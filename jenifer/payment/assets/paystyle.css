@@ -55,6 +55,9 @@ input[type=button]:hover
 
 ::placeholder {
     color:aliceblue;
-    opacity: 0.8; /* Firefox */
+    opacity: 0.8; 
 }
 
+.click{
+    margin-left:40%;
+}
